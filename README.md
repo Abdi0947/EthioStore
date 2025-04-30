@@ -1,23 +1,22 @@
-# React + Vite + TailwindCSS
+    # 📚 Quiz Tracker
 
-To test this application redirect to:
-[Nike Landing Page](https://nike-landing-page-static.netlify.app/)
+A sleek and responsive web application for tracking quizzes across subjects. Built with **React** and designed for ease of use, Quiz Tracker helps students and educators stay organized and focused.
 
-![Nike Landing Page](https://github.com/SharathHebbar/Nike-landing-page/blob/main/temp/1.png)
+## 🚀 Features
 
-Steps to run:
-- git clone https://github.com/SharathHebbar/Nike-landing-page.git
-- npm run dev
-- Navigate to http://localhost:5173/
+- 🏠 **Home Page** – Overview of quiz statistics and navigation
+- 📚 **Subjects** – Categorized quiz tracking per subject
+- ℹ️ **About** – Learn about the purpose and features of Quiz Tracker
+- 📞 **Contact** – Get in touch or provide feedback
+- 📱 **Responsive Design** – Optimized for desktop and mobile devices
+- 🍔 **Hamburger Menu** for smaller screens
 
-Steps to create a new project:
-- npm create vite@latest my-project -- --template react
-- cd my-project
+## 🛠️ Tech Stack
 
-- npm install -D tailwindcss postcss autoprefixer
-- npx tailwindcss init -p
+- **React** – UI framework
+- **Tailwind CSS** – Utility-first CSS for styling
+- **Vite / Create React App** – Build tooling
+- **Ionicons** – Icons for navigation
 
-- npm run dev
+## 📁 Project Structure
 
-For Documentation refer:
-[Docs](https://tailwindcss.com/docs/guides/vite)
