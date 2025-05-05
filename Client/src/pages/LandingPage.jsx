@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import student from "../assets/student pp.png";
 
 import {
@@ -28,41 +28,44 @@ function OtherPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <section className="flex flex-col-reverse md:flex-row items-center py-16 mt-12 gap-8">
-      <div className="w-full md:w-1/2 flex justify-center">
-  <img
-    src={student}
-    alt="Smart School Management"
-    className="w-2/3 md:w-3/4 max-w-xs"
-  />
-</div>
+        <div className="w-full md:w-1/2 flex justify-center">
+          <img
+            src={student}
+            alt="Smart School Management"
+            className="w-2/3 md:w-3/4 max-w-xs"
+          />
+        </div>
 
-      <div className="w-full md:w-1/2">
-  <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-    Are you ready to the next level?
-    <br />
-    <span className="block mt-2 text-green-700">
-      <Typewriter
-        options={{
-          strings: ["Stay focused .", "trust your preparation.", "Stay Consistent."],
-          autoStart: true,
-          loop: true,
-        }}
-      />
-    </span>
-  </h1>
-  <p className="text-lg md:text-xl text-gray-600 mb-6">
-    It seems impossible until it's done. <br />
-  </p>
-  <div className="flex flex-col sm:flex-row gap-4">
-    <button
-      onClick={() => navigator("/About")}
-      className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg"
-    >
-      Learn More
-    </button>
-  </div>
-</div>
-        
+        <div className="w-full md:w-1/2">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
+            Are you ready to the next level?
+            <br />
+            <span className="block mt-2 text-green-700">
+              <Typewriter
+                options={{
+                  strings: [
+                    "Stay focused .",
+                    "trust your preparation.",
+                    "Stay Consistent.",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+          </h1>
+          <p className="text-lg md:text-xl text-gray-600 mb-6">
+            It seems impossible until it's done. <br />
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button
+              onClick={() => navigator("/About")}
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
       </section>
 
       <section className="py-16 mt-10">
@@ -149,8 +152,8 @@ function OtherPage() {
               <SwiperSlide key={i}>
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <p className="text-gray-600 italic mb-4">
-                    “This system is intuitive, reliable, and transformed how
-                    we manage education.”
+                    “This system is intuitive, reliable, and transformed how we
+                    manage education.”
                   </p>
                   <div className="flex items-center">
                     {/* Image placeholder removed */}
